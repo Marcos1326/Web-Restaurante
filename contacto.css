@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../Restaurante/imagen/fondo3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background-image: url(../Restaurante/imagen/fondo4.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    border-radius: 50px;
+    font-family: Brush Script MT;
+    font-size: 190%;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+}
+
+.menu  li a:hover{
+    background: #636363;
+    border-radius: 50px;
+}
+
+.container{
+    top: 10px;
+    width: 90%;
+    max-width: 1700px;
+    height: 850px;
+    display: flex;
+    position: relative;
+    margin: auto;
+    justify-content: space-between;
+    font-family: Brush Script MT;
+}
+
+.informacion{
+    background-image: url(../Restaurante/imagen/fondo4.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 700px;
+    height: 670px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+    left: 100px;
+    border-radius: 100px 30px;  
+}
+
+.contacto{
+    position: relative;
+    display: flex;
+    width: 1100px;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    top: 100px;
+}
