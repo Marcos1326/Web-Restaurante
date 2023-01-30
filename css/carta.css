@@ -1,3 +1,4 @@
+/* Titulo carta  */
 .col-carta{
     height: 25vh;
     width: 100%;
@@ -6,12 +7,14 @@
     border-bottom: 2px solid black;
 }
 
+/* Titulos almuerzo/comida/bebida  */
 .col-titulos{
     color: white;
     background-color: rgb(34, 34, 34);
     height: 10vh;
 }
 
+/* Tarjetas */
 .card-image {
     height: 30vh;
     background-position: center;
@@ -54,3 +57,4 @@
 #card12{
     background-image: url(../img/carne2.png)
 }
+/* Tarjetas */
