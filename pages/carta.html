@@ -13,8 +13,8 @@
     <title>Restaurante</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top navbar bg-dark" data-bs-theme="dark">
-        <div class="container-fluid navbar-1">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top navbar" id="navbar-1" data-bs-theme="dark">
+        <div class="container-fluid ">
         <a class="navbar-brand " href="../index.html">
             <img src="../img/logo (2).png" class="img-thumbnail logo-navbar">
         </a>
@@ -38,16 +38,15 @@
     </nav>
     <div class="container-fluid container-principal">
         <div class="row">
-            <div class="col col-carta fs-1">Carta El Paso</div>
+            <div class="col col-carta d-flex align-items-end fs-1">Carta El Paso</div>
         </div>
         <div class="row">
-            <div class="col col-titulos fs-3">Almuerzos</div>
+            <div class="col col-titulos d-flex align-items-center fs-3">Almuerzos</div>
         </div>
-        <div class="row row-tarjeta">
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col">
+        <div class="row row-tarjeta row-cols-1 row-cols-md-2 g-4 justify-content-center">
+                <div class="col-12 col-lg-3">
                 <div class="card">
-                    <img src="../img/Jerez.jpg" class="card-img-top">
+                    <div class="card-image" id="card1"></div>
                     <div class="card-body">
                     <h5 class="card-title">Jerez</h5>
                     <p class="card-text">Clasico chivito</p>
@@ -55,9 +54,9 @@
                     </div>
                 </div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-lg-3">
                 <div class="card">
-                    <img src="../img/americas.jpeg" class="card-img-top" >
+                    <div class="card-image" id="card2"></div>
                     <div class="card-body">
                     <h5 class="card-title">Las americas</h5>
                     <p class="card-text">Brascada (ternera/buey).</p>
@@ -65,36 +64,49 @@
                     </div>
                 </div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-lg-3">
                 <div class="card">
-                    <img src="../img/misano.jpg" class="card-img-top" >
+                    <div class="card-image" id="card3"></div>
                     <div class="card-body">
                     <h5 class="card-title">Misano</h5>
-                    <p class="card-text">Bocadillo de ternera con cebolla morada caramelizada.</p>
+                    <p class="card-text">Ternera con cebolla morada caramelizada</p>
                     <p class="card-text">6,50€</p>
                     </div>
                 </div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-lg-3">
                 <div class="card">
-                    <img src="../img/le mans.jpg" class="card-img-top" >
+                    <div class="card-image" id="card4"></div>
                     <div class="card-body">
                     <h5 class="card-title"> Le Mans</h5>
-                    <p class="card-text">Bocata de bacon y ternera a la brasa, queso y mayonesa.</p>
+                    <p class="card-text">Bacon, ternera, queso y mayonesa.</p>
                     <p class="card-text">5€</p>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col col-titulos fs-3">Comidas</div>
+            <div class="col col-titulos d-flex align-items-center fs-3">Almuerzo especial motero</div>
         </div>
-        <div class="row row-tarjeta">
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col">
+        <div class="row row-tarjeta row-cols-1 row-cols-md-2 g-4">
+                <div class="col-12 col-lg-3">
                 <div class="card">
-                    <img src="../img/carne fondo.jpg" class="card-img-top img-paella">
+                    <div class="card-image" id="card12"></div>
+                    <div class="card-body">
+                    <h5 class="card-title">Noé</h5>
+                    <p class="card-text">Barca de carne a la brasa + salsas</p>
+                    <p class="card-text">25€</p>
+                    </div>
+                </div>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col col-titulos d-flex align-items-center fs-3">Comidas</div>
+        </div>
+        <div class="row row-tarjeta row-cols-1 row-cols-md-2 g-4">
+                <div class="col-12 col-lg-3">
+                <div class="card">
+                    <div class="card-image" id="card5"></div>
                     <div class="card-body">
                     <h5 class="card-title">Especialidad de la casa</h5>
                     <p class="card-text">Carne a la brasa con nuestra salsa especial</p>
@@ -102,71 +114,68 @@
                     </div>
                 </div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-lg-3">
                 <div class="card">
-                    <img src="../img/plato1.jpg" class="card-img-top" >
+                    <div class="card-image" id="card6"></div>
                     <div class="card-body">
                     <h5 class="card-title">Asada</h5>
-                    <p class="card-text">Entrecot a la brasa con salsa BBQ. </p>
+                    <p class="card-text">Entrecot a la brasa con salsa BBQ y patatas especiadas asadas </p>
                     <p class="card-text">10,50€</p>
                     </div>
                 </div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-lg-3">
                 <div class="card">
-                    <img src="../img/marisco.png" class="card-img-top" >
+                    <div class="card-image" id="card7"></div>
                     <div class="card-body">
                     <h5 class="card-title">Barca marisco</h5>
                     <p class="card-text">Fuente de variedad de nuestros mariscos a la brasa.</p>
+                    <p class="card-text">25€</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                <div class="card">
+                    <div class="card-image" id="card8"></div>
+                    <div class="card-body">
+                    <h5 class="card-title"> Machete a la brasa</h5>
+                    <p class="card-text">Dos piezas de carne a la brasa con patatas.</p>
                     <p class="card-text">15€</p>
                     </div>
                 </div>
                 </div>
-                <div class="col">
-                <div class="card">
-                    <img src="../img/carne1.png" class="card-img-top" >
-                    <div class="card-body">
-                    <h5 class="card-title"> Machete a la brasa</h5>
-                    <p class="card-text">Dos piezas de carne a la brasa con patatas.</p>
-                    <p class="card-text">10€</p>
-                    </div>
-                </div>
-                </div>
-            </div>
         </div>
         <div class="row">
-            <div class="col col-titulos fs-3">Bebidas</div>
+            <div class="col col-titulos d-flex align-items-center fs-3">Bebidas</div>
         </div>
-        <div class="row row-tarjeta">
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col">
+        <div class="row row-tarjeta row-cols-1 row-cols-md-2 g-4">
+                <div class="col-12 col-lg-3">
                 <div class="card">
-                    <img src="../img/cerveza.jpg" class="card-img-top img-paella">
+                    <div class="card-image" id="card9"></div>
                     <div class="card-body">
                     <h5 class="card-title">Cerveza</h5>
                     <p class="card-text">2,50€</p>
                     </div>
                 </div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-lg-3">
                 <div class="card">
-                    <img src="../img/refresco.jpg" class="card-img-top" >
+                    <div class="card-image" id="card10"></div>
                     <div class="card-body">
                     <h5 class="card-title">Refrescos</h5>
                     <p class="card-text">2€</p>
                     </div>
                 </div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-lg-3">
                 <div class="card">
-                    <img src="../img/agua.jpg" class="card-img-top" >
+                    <div class="card-image" id="card11"></div>
                     <div class="card-body">
                     <h5 class="card-title">Agua</h5>
-                    <p class="card-text">15€</p>
+                    <p class="card-text">1,50€</p>
                     </div>
                 </div>
                 </div>
-            </div>
         </div>
     </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

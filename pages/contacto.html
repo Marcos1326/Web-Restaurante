@@ -13,8 +13,8 @@
     <title>Restaurante</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top navbar bg-dark" data-bs-theme="dark">
-        <div class="container-fluid navbar-1">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top navbar" id="navbar-1" data-bs-theme="dark">
+        <div class="container-fluid ">
         <a class="navbar-brand " href="../index.html">
             <img src="../img/logo (2).png" class="img-thumbnail logo-navbar">
         </a>
@@ -38,8 +38,27 @@
     </nav>
     <div class="container-fluid container-principal">
         <div class="row">
-            <div class="col col-cont-prin">
-                    
+            <div class="col txt-contacto d-flex justify-content-center align-items-end fs-3 col-txt-contacto pb-4">Haz tu reserva hoy mismo</div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-3 col-cont-prin">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" id="disabledTextInput" class="form-control" placeholder="Nombre">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" id="disabledTextInput" class="form-control" placeholder="Apellidos">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" id="disabledTextInput" class="form-control" placeholder="Telefono">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" id="disabledTextInput" class="form-control" placeholder="Correo">
+                    </div>
+                    <div class="mb-3">
+                    </div>
+                    <button type="submit" class="btn btn-danger">Pedir reserva</button>
+                </form>
             </div>
         </div>
     </div>

@@ -6,9 +6,6 @@
 /* Logo central */
 .col-cont-prin{
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .logo-menu{
@@ -26,17 +23,12 @@
 /* Container Inicio */
 
 /* Container historia  */
-.container-historia{
-    height: 40vh;
-}
 
 /* Col historia */
 .col-hist{
     background-color: rgba(43,48,53,255);
     height: 40vh;
     color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
 }
@@ -45,22 +37,17 @@
 
 /* container-menucarta */
 .container-menucarta{
-    background-image:url(../img/carne\ fondo.jpg) ;
+    background-color: rgba(43,48,53,255);
 }
 
 .col1-txtmenu{
     color:white;
-    display: flex;
-    justify-content: center;
     height: 15vh;
-    text-align: center;
 }
 
 .col1-txtmenu2{
     color:white;
     height: 30vh;
-    text-align: center;
-    
 }
 
 .link-web{
@@ -81,7 +68,6 @@
 .row1-contc{
     padding-top: 10px;
     height: 40%;
-    text-align: center;
 }
 
 /* mapa */

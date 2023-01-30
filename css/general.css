@@ -1,15 +1,17 @@
 body{
     font-family: Courier;
-    background-color: blanchedalmond;
+    background-color: rgba(43,48,53,255);
 }
 
 /* Navbar  */
-.navbar-1{
-    background-color: black;
+#navbar-1{
+    background-color: black !important;
 }
 
 .logo-navbar{
     height: 50px;
+    padding: 0;
+    border: none;
 }
 /* Navbar  */
 
