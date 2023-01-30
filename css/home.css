@@ -1,0 +1,96 @@
+/* Container Inicio */
+.fondo-container{
+    background-color: rgba(43,48,53,255);
+}
+
+/* Logo central */
+.col-cont-prin{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-menu{
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    width:60vw;
+    height: 40vh;
+}
+
+.foto-logo{
+    height: 100%;
+    border-radius: 100%;
+}
+/* Container Inicio */
+
+/* Container historia  */
+.container-historia{
+    height: 40vh;
+}
+
+/* Col historia */
+.col-hist{
+    background-color: rgba(43,48,53,255);
+    height: 40vh;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+/* Container historia  */
+
+/* container-menucarta */
+.container-menucarta{
+    background-image:url(../img/carne\ fondo.jpg) ;
+}
+
+.col1-txtmenu{
+    color:white;
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    text-align: center;
+}
+
+.col1-txtmenu2{
+    color:white;
+    height: 30vh;
+    text-align: center;
+    
+}
+
+.link-web{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/* container-menu/carta */
+
+/* container contacto */
+.container-contacto{
+    color: rgb(255, 255, 255);
+    height: 50vh;
+    background-color: rgba(43,48,53,255);
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.row1-contc{
+    padding-top: 10px;
+    height: 40%;
+    text-align: center;
+}
+
+/* mapa */
+#map{
+    width: 100%;
+    height: 100%;
+}
+
+.row2-contc{
+    height: 50%;
+}
+/* container contacto */
