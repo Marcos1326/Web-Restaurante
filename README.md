@@ -10,7 +10,12 @@ Web inspirada en los restaurantes y bares que realizan almuerzos y comidas a los
 <hr>
 
 ### Tecnologias utilizadas
-La web esta realizada en HTML5, CSS3 y Bootstrap.
+<a href="https://developer.mozilla.org/es/docs/Web/CSS">
+    <img src= "https://img.shields.io/badge/css-1D7CF2?style=for-the-badge&logo=css3&logoColor=white"/>
+</a>
+<a href="https://www.w3schools.com/html/">
+    <img src= "https://img.shields.io/badge/html5-1D0CF2?style=for-the-badge&logo=html5&logoColor=white"/>
+</a>
 
 <hr>
 
